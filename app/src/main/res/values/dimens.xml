@@ -1,0 +1,12 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="general_frame">4dp</dimen>
+    <dimen name="general_frame_2">8dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_typical">8dp</dimen>
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="text_large">22sp</dimen>
+    <dimen name="text_medium">18sp</dimen>
+    <dimen name="text_small">16sp</dimen>
+    <dimen name="text_xsmall">14sp</dimen>
+</resources>

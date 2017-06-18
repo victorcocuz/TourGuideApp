@@ -1,0 +1,422 @@
+<resources>
+    <string name="app_name">TourGuideApp</string>
+    <string name="fragment_popular">Popular</string>
+    <string name="fragment_categories">Categories</string>
+    <string name="fragment_collections">Collections</string>
+    <string name="fragment_categories_1">Restaurants</string>
+    <string name="fragment_categories_2">Pubs</string>
+    <string name="fragment_categories_3">Entertainment</string>
+    <string name="fragment_categories_4">Outdoors</string>
+    <string name="fragment_categories_5">Art &amp; Culture</string>
+    <string name="fragment_categories_6">Sports</string>
+    <string name="fragment_favorites_1">Top Picks</string>
+    <string name="fragment_favorites_2">To Do List</string>
+    <string name="fragment_favorites_3">New Collection</string>
+    <string name="days_monday">Monday</string>
+    <string name="days_tuesday">Tuesday</string>
+    <string name="days_wednesday">Wednesday</string>
+    <string name="days_thursday">Thursday</string>
+    <string name="days_friday">Friday</string>
+    <string name="days_saturday">Saturday</string>
+    <string name="days_sunday">Sunday</string>
+    <string name="description_hours_text">Hours </string>
+    <string name="description_address_text">Address: </string>
+    <string name="description_contact_text">Contact: </string>
+    <string-array name="categories_title">
+        <item>Restaurants</item>
+        <item>Pubs</item>
+        <item>Entertainment</item>
+        <item>Outdoors</item>
+        <item>Art &amp; Culture</item>
+        <item>Sports</item>
+    </string-array>
+    <string-array name="popular_title">
+        <item>Pietricica Mountain</item>
+        <item>Partia de Ski Cozla</item>
+        <item>Tequila Bowling</item>
+        <item>Turnul Berarilor</item>
+        <item>Teatrul Tineretului</item>
+        <item>Restaurant Cercul Gospodinelor</item>
+        <item>Strand Piatra Neamt</item>
+    </string-array>
+    <string-array name="popular_type">
+        <item>Nature Reserve</item>
+        <item>Ski Resort</item>
+        <item>Bowling Alley</item>
+        <item>Restaurant Bar</item>
+        <item>Performing Arts Theatre</item>
+        <item>Traditional Restaurant</item>
+        <item>Sports Activity Location</item>
+    </string-array>
+    <string-array name="popular_price">
+        <item>FREE</item>
+        <item>$$</item>
+        <item>$$$</item>
+        <item>$$$</item>
+        <item>$$</item>
+        <item>$$</item>
+        <item>$$</item>
+    </string-array>
+    <string-array name="popular_address">
+        <item>Muntele Pietricica</item>
+        <item>Parcul Cozla</item>
+        <item>Aleea Tineretului 31</item>
+        <item>Bulevardul Decebal 26</item>
+        <item>Piata Stefan cel Mare 1</item>
+        <item>Parc Cozla Gh.P. Ghiseu 1 </item>
+        <item>Aleea Tineretului</item>
+    </string-array>
+    <string-array name="popular_contact">
+        <item>No phone number</item>
+        <item>+40 233 253 017</item>
+        <item>+40 233 214 440</item>
+        <item>+40 233 220 002</item>
+        <item>+40 233 211 472</item>
+        <item>+40 233 223 845</item>
+        <item>+40 233 235 900</item>
+    </string-array>
+    <string-array name="popular_hours">
+        <item>Open 24 hours</item>
+        <item>9am-8pm</item>
+        <item>10am-1am</item>
+        <item>11am-12am</item>
+        <item>10am-10pm</item>
+        <item>10am-1am</item>
+        <item>9am-9pm</item>
+    </string-array>
+    <string-array name="restaurants_title">
+        <item>Noir Restaurant</item>
+        <item>Restaurant Cercul Gospodinelor</item>
+        <item>The Times Restaurant</item>
+        <item>La Pizzeria</item>
+        <item>La Terazza da Bruno</item>
+        <item>La Sultan</item>
+        <item>Colibele Haiducilor</item>
+    </string-array>
+    <string-array name="restaurants_type">
+        <item>Restaurant</item>
+        <item>Traditional Restaurant</item>
+        <item>Restaurant</item>
+        <item>Pizzeria</item>
+        <item>Italian Restaurant</item>
+        <item>Turkish Restaurant</item>
+        <item>Traditional Restaurant</item>
+    </string-array>
+    <string-array name="restaurants_price">
+        <item>$$$</item>
+        <item>$$</item>
+        <item>$$</item>
+        <item>$</item>
+        <item>$$$</item>
+        <item>$</item>
+        <item>$$</item>
+    </string-array>
+    <string-array name="restaurants_address">
+        <item>P-ta Kogalniceanu, H4, Parter</item>
+        <item>Parc Cozla Gh.P. Ghiseu 1 </item>
+        <item>Strada Paharnicului 3</item>
+        <item>Piata Stefan cel Mare 1</item>
+        <item>B.dul Traian, bl.A2</item>
+        <item>Galleria Mall, Strada Plaiesului 2</item>
+        <item>Parcul Cozla</item>
+    </string-array>
+    <string-array name="restaurants_contact">
+        <item>+40 233 211 886</item>
+        <item>+40 233 223 845</item>
+        <item>+40 333 401 489</item>
+        <item>+40 233 233 233</item>
+        <item>+40 233 227 548</item>
+        <item>+40 752 785 826</item>
+        <item>+40 740 198 954</item>
+    </string-array>
+    <string-array name="restaurants_hours">
+        <item>12am-11pm</item>
+        <item>10am-1am</item>
+        <item>9am-2am</item>
+        <item>8am-10pm</item>
+        <item>9am-10pm</item>
+        <item>9am-10pm</item>
+        <item>10am-9pm</item>
+    </string-array>
+    <string-array name="pub_title">
+        <item>Temple Pub</item>
+        <item>Old Town Irish Pub</item>
+        <item>Turnul Berarilor</item>
+        <item>Bar Apollo</item>
+        <item>Sestri Cafe</item>
+        <item>Spot</item>
+        <item>Terasa Gradina de Vara</item>
+    </string-array>
+    <string-array name="pub_type">
+        <item>Bar</item>
+        <item>Irish Pub</item>
+        <item>Restaurant Bar</item>
+        <item>Lounge</item>
+        <item>Lounge</item>
+        <item>Bar</item>
+        <item>Bar</item>
+    </string-array>
+    <string-array name="pub_price">
+        <item>$$</item>
+        <item>$</item>
+        <item>$$$</item>
+        <item>$$</item>
+        <item>$$</item>
+        <item>$$</item>
+        <item>$</item>
+    </string-array>
+    <string-array name="pub_address">
+        <item>Bulevardul Republicii, numarul 15</item>
+        <item>Bulevardul Decebal nr 34</item>
+        <item>Bulevardul Decebal 26</item>
+        <item>Bulevardul Republicii 17</item>
+        <item>Strada Borzoghian</item>
+        <item>Piata Stefan cel Mare 6</item>
+        <item>11, Piatra Neamt</item>
+    </string-array>
+    <string-array name="pub_contact">
+        <item>+40 233 215 215</item>
+        <item>+40 233 239 923</item>
+        <item>+40 233 220 002</item>
+        <item>+40 746 969 270</item>
+        <item>+40 333 405 205</item>
+        <item>+40 333 405 505</item>
+        <item>+40 233 277 528</item>
+    </string-array>
+    <string-array name="pub_hours">
+        <item>Open 24 hours</item>
+        <item>8am-12am</item>
+        <item>11am-12am</item>
+        <item>7am-12am</item>
+        <item>8am-1am</item>
+        <item>7:30am-1am</item>
+        <item>12pm-12am</item>
+    </string-array>
+    <string-array name="entertainment_title">
+        <item>Tequila Bowling</item>
+        <item>Restaurant Laguna</item>
+        <item>Pub ZE GERMANS</item>
+        <item>Club 12</item>
+        <item>Cinema City</item>
+        <item>Teatrul Tineretului</item>
+        <item>Casa De Cultura a Sindicatelor</item>
+    </string-array>
+    <string-array name="entertainment_type">
+        <item>Bowling Alley</item>
+        <item>Billiards</item>
+        <item>Bar &amp; Night Club</item>
+        <item>Night Club</item>
+        <item>Cinema</item>
+        <item>Performing Arts Theatre</item>
+        <item>Cultural Centre</item>
+    </string-array>
+    <string-array name="entertainment_price">
+        <item>$$$</item>
+        <item>$$</item>
+        <item>$</item>
+        <item>$</item>
+        <item>$$</item>
+        <item>$$</item>
+        <item>$</item>
+    </string-array>
+    <string-array name="entertainment_address">
+        <item>Aleea Tineretului 31</item>
+        <item>B-dul Decebal, Nr. 80, Etaj 1</item>
+        <item>Strada Cuza Voda 5</item>
+        <item>Piata Stefan cel Mare 3</item>
+        <item>Bulevardul Decebal 79</item>
+        <item>Piata Stefan cel Mare 1</item>
+        <item>B-dul Decebal</item>
+    </string-array>
+    <string-array name="entertainment_contact">
+        <item>+40 233 214 440</item>
+        <item>+40 233 232 121</item>
+        <item>+40 728 243 249</item>
+        <item>+40 333 407 205</item>
+        <item>+40 724 017 620</item>
+        <item>+40 233 211 472</item>
+        <item>+40 233 215 278</item>
+    </string-array>
+    <string-array name="entertainment_hours">
+        <item>10am-1am</item>
+        <item>10am-11pm</item>
+        <item>9am-3am</item>
+        <item>12am-4am</item>
+        <item>10am-12pm</item>
+        <item>10am-10pm</item>
+        <item>10am-10pm</item>
+    </string-array>
+    <string-array name="outdoors_title">
+        <item>Turnul lui Stefan cel Mare</item>
+        <item>Pietricica Mountain</item>
+        <item>Rezervatie Marmite Eoliene</item>
+        <item>Batca Doamnei</item>
+        <item>Manastirea Bistrita</item>
+        <item>Parcul Zoologic Cozla</item>
+        <item>Bisericani</item>
+    </string-array>
+    <string-array name="outdoors_type">
+        <item>Historical Place</item>
+        <item>Nature Reserve</item>
+        <item>Nature Reserve</item>
+        <item>Nature Reserve</item>
+        <item>Monastery</item>
+        <item>Zoo</item>
+        <item>Park</item>
+    </string-array>
+    <string-array name="outdoors_price">
+        <item>$</item>
+        <item>FREE</item>
+        <item>FREE</item>
+        <item>FREE</item>
+        <item>FREE</item>
+        <item>$</item>
+        <item>FREE</item>
+    </string-array>
+    <string-array name="outdoors_address">
+        <item>Piata Libertatii</item>
+        <item>Muntele Pietricica</item>
+        <item>Muntele Cozla</item>
+        <item>Lacul Batca Doamnei</item>
+        <item>Strada Bistritei</item>
+        <item>Strada Stefan cel Mare</item>
+        <item>Bisericani</item>
+    </string-array>
+    <string-array name="outdoors_contact">
+        <item>No phone number</item>
+        <item>No phone number</item>
+        <item>No phone number</item>
+        <item>No phone number</item>
+        <item>No phone number</item>
+        <item>No phone number</item>
+        <item>No phone number</item>
+    </string-array>
+    <string-array name="outdoors_hours">
+        <item>Open 24 hours</item>
+        <item>Open 24 hours</item>
+        <item>Open 24 hours</item>
+        <item>Open 24 hours</item>
+        <item>Open 24 hours</item>
+        <item>8am-8pm</item>
+        <item>Open 24 hours</item>
+    </string-array>
+    <string-array name="art_title">
+        <item>History and Archeology Museum</item>
+        <item>Muzeul Memorial Calistrat Hogas</item>
+        <item>Cucuteni Neolithic Art Museum</item>
+        <item>Museum of Natural Sciences</item>
+        <item>Muzeul de Arta</item>
+        <item>Ethnography Museum</item>
+        <item>Cetatea Antica Petrodava</item>
+    </string-array>
+    <string-array name="art_type">
+        <item>History Museum</item>
+        <item>Museum</item>
+        <item>Archaeological Museum</item>
+        <item>Natural History Museum</item>
+        <item>Art Museum</item>
+        <item>Heritage Museum</item>
+        <item>Museum</item>
+    </string-array>
+    <string-array name="art_price">
+        <item>$</item>
+        <item>$</item>
+        <item>$</item>
+        <item>$</item>
+        <item>$</item>
+        <item>$</item>
+        <item>$</item>
+    </string-array>
+    <string-array name="art_address">
+        <item>Bulevardul Mihai Eminescu 10</item>
+        <item>Strada Calistrat Hogas 1</item>
+        <item>Strada Stefan cel Mare 3</item>
+        <item>Str. Rares Petru, 26</item>
+        <item>Piata Libertatii 1</item>
+        <item>Piata Libertatii 2</item>
+        <item>Petrodava Ancient Citadel</item>
+    </string-array>
+    <string-array name="art_contact">
+        <item>+40 233 214 823</item>
+        <item>+40 233 254 623</item>
+        <item>+40 233 226 471</item>
+        <item>+40 233 224 211</item>
+        <item>+40 233 254 798</item>
+        <item>+40 233 254 799</item>
+        <item>+40 233 218 991</item>
+    </string-array>
+    <string-array name="sports_hours">
+        <item>10am-6pm</item>
+        <item>10am-6pm</item>
+        <item>10am-6pm</item>
+        <item>10am-6pm</item>
+        <item>10am-6pm</item>
+        <item>10am-6pm</item>
+        <item>Open 24 hours</item>
+    </string-array>
+    <string-array name="sports_title">
+        <item>Partia de Ski Cozla</item>
+        <item>Strand Piatra Neamt</item>
+        <item>Complex Sportiv VIPSANGYM</item>
+        <item>Clubul Sportiv Ceahlaul</item>
+        <item>Stadionul Ceahlaul</item>
+        <item>Sala Polivalenta</item>
+        <item>Palatul Copiilor</item>
+    </string-array>
+    <string-array name="sports_type">
+        <item>Ski Resort</item>
+        <item>Sports Activity Location</item>
+        <item>Sports Complex</item>
+        <item>Serviced Accommodation</item>
+        <item>Stadium</item>
+        <item>Hall</item>
+        <item>Sports Location</item>
+    </string-array>
+    <string-array name="sports_price">
+        <item>$$</item>
+        <item>$$</item>
+        <item>$$$</item>
+        <item>$</item>
+        <item>$$</item>
+        <item>$$</item>
+        <item>$</item>
+    </string-array>
+    <string-array name="sports_address">
+        <item>Parcul Cozla</item>
+        <item>Aleea Tineretului</item>
+        <item>Str. Alecu Russo nr. 12</item>
+        <item>Str. Stefan cel Mare, 53</item>
+        <item>Strada Eroilor</item>
+        <item>Strada Mihai Viteazul</item>
+        <item>Str. Stefan cel Mare, Nr. 44</item>
+    </string-array>
+    <string-array name="sports_contact">
+        <item>+40 233 253 017</item>
+        <item>+40 233 235 900</item>
+        <item>+40 233 210 292</item>
+        <item>+40 233 233 010</item>
+        <item>+40 233 283 010</item>
+        <item>+40 233 212 744</item>
+        <item>+40  233 214 351</item>
+    </string-array>
+    <string-array name="art_hours">
+        <item>9am-8pm</item>
+        <item>9am-9pm</item>
+        <item>9am-9pm</item>
+        <item>9am-9pm</item>
+        <item>10am-6pm</item>
+        <item>10am-6pm</item>
+        <item>9am-6pm</item>
+    </string-array>
+    <string-array name="favorites_title">
+        <item>Top Picks</item>
+        <item>To Do List</item>
+        <item>New Collection</item>
+    </string-array>
+    <string-array name="favorites_type">
+        <item>Save the places you love most</item>
+        <item>Create a list of places to explore</item>
+        <item>Make a custom itinerary</item>
+    </string-array>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </string>
+</resources>

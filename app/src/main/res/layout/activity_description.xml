@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.tourguideapp.DescriptionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/description_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/restaurant_1" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/description_title"
+                style="@style/descriptionTitle"
+                android:layout_marginBottom="-8dp"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/text_large"
+                tools:text="Title" />
+
+            <TextView
+                android:id="@+id/description_type"
+                style="@style/descriptionTitle"
+                android:layout_below="@id/description_title"
+                android:textColor="@color/colorTextFaded"
+                android:textSize="@dimen/text_small"
+                tools:text="Type" />
+
+            <TextView
+                android:id="@+id/description_price"
+                style="@style/descriptionTitle"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/description_title"
+                android:textColor="@color/colorTextFaded"
+                android:textSize="@dimen/text_small"
+                tools:text="$$" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/description_lorem_ipsum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_typical"
+            android:paddingBottom="0dp"
+            android:text="@string/lorem_ipsum"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/text_small" />
+
+        <LinearLayout style="@style/daysLinearLayout">
+
+            <TextView
+                android:id="@+id/description_address_text"
+                style="@style/descriptionText"
+                android:text="@string/description_address_text" />
+
+            <TextView
+                android:id="@+id/description_address"
+                style="@style/descriptionText"
+                tools:text="Address" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/daysLinearLayout">
+
+            <TextView
+                android:id="@+id/description_contact_text"
+                style="@style/descriptionText"
+                android:text="@string/description_contact_text" />
+
+            <TextView
+                android:id="@+id/description_contact"
+                style="@style/descriptionText"
+                tools:text="Contact" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/description_hours_text"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_large"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginBottom="@dimen/margin_typical"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/margin_typical"
+            android:text="@string/description_hours_text"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/text_medium" />
+
+        <LinearLayout style="@style/daysLinearLayout">
+
+            <TextView
+                style="@style/daysTextView"
+                android:text="@string/days_monday" />
+
+            <TextView
+                android:id="@+id/description_hours_monday"
+                style="@style/hoursTextView"
+                tools:text="@string/days_monday" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/daysLinearLayout">
+
+            <TextView
+                style="@style/daysTextView"
+                android:text="@string/days_tuesday" />
+
+            <TextView
+                android:id="@+id/description_hours_tuesday"
+                style="@style/hoursTextView"
+                tools:text="@string/days_tuesday" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/daysLinearLayout">
+
+            <TextView
+                style="@style/daysTextView"
+                android:text="@string/days_wednesday" />
+
+            <TextView
+                android:id="@+id/description_hours_wednesday"
+                style="@style/hoursTextView"
+                tools:text="@string/days_wednesday" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/daysLinearLayout">
+
+            <TextView
+                style="@style/daysTextView"
+                android:text="@string/days_thursday" />
+
+            <TextView
+                android:id="@+id/description_hours_thursday"
+                style="@style/hoursTextView"
+                tools:text="@string/days_thursday" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/daysLinearLayout">
+
+            <TextView
+                style="@style/daysTextView"
+                android:text="@string/days_friday" />
+
+            <TextView
+                android:id="@+id/description_hours_friday"
+                style="@style/hoursTextView"
+                tools:text="@string/days_friday" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/daysLinearLayout">
+
+            <TextView
+                style="@style/daysTextView"
+                android:text="@string/days_saturday" />
+
+            <TextView
+                android:id="@+id/description_hours_saturday"
+                style="@style/hoursTextView"
+                tools:text="@string/days_saturday" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/daysLinearLayout">
+
+            <TextView
+                style="@style/daysTextView"
+                android:text="@string/days_sunday" />
+
+            <TextView
+                android:id="@+id/description_hours_sunday"
+                style="@style/daysTextView"
+                android:gravity="right"
+                tools:text="@string/days_sunday" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
